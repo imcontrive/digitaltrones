@@ -1,0 +1,74 @@
+/********** Base CSS *************/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: 0;
+  cursor: pointer;
+}
+button:focus {
+  outline: 0;
+}
+input {
+  border: 0;
+  margin: 0;
+}
+input:focus {
+  outline: 0;
+}
+/** Heading Elements **/
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+h5 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+h6 {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.img-responsive {
+  width: 100%;
+}
+
+/* MAIN CSS */
